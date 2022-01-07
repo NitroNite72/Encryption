@@ -57,5 +57,17 @@ word = word.replace("x", "c", x)
 word = word.replace("y", "b", y)
 word = word.replace("z", "a", z)
 
+####################################################################
+
+# swap characters in string
+def swap(string):
+   return string[-1: ] + string[1: -1] + string[: 1]
+
+word = swap(word)
+
+####################################################################
+
+
+
 # Result
 print(word)
